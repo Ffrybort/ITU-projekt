@@ -1,0 +1,17 @@
+:root {
+    --background: #E4DFDA;
+    --button: #F6F5F3;
+    --border: black;
+    --hover-red: lightpink;
+    --hover-blue: lightblue;
+    --selected: #d5aeff;
+    --correct: #00BF6B;
+    --incorrect: #FF5C5C;
+    --card: #ffd69d;
+    --playerX: #823539;
+    --playerO: #334284;
+}
+body
+{
+    background-color: var(--background);
+}

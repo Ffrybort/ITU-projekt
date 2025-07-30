@@ -1,0 +1,42 @@
+@import "../colors.css";
+
+.scoreboard-text
+{
+    font-size: xxx-large;
+    display:inline-block;
+    margin: 10px;
+}
+.player
+{
+    border-style: solid;
+    border-width: thick;
+    border-color: #E4DFDA;
+    font-weight: bold;
+    color: #A6A5A4;
+}
+.player-x
+{
+    background-color: var(--hover-red);
+    color: black;
+}
+.player-o{
+    background-color: var(--hover-blue);
+    color: black;
+}
+.player-icon
+{
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.player-icon-o
+{
+    width: 65px;
+}
+
+.center
+{
+    margin: auto;
+}

@@ -1,0 +1,85 @@
+﻿@import "../colors.css";
+
+.btn-gomoku 
+{
+    width: 32px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 32px !important;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    background-color: var(--button);
+    border-style: solid;
+    border-color: var(--border);
+    border-width: thin;
+}
+
+.btn-gomoku-hover {}
+
+.currentRed .btn-gomoku-hover:hover
+{
+    background-color: var(--hover-red);
+}
+
+.currentBlue .btn-gomoku-hover:hover
+{
+    background-color: var(--hover-blue);
+}
+
+.btn-playerX 
+{
+    background-image: url("../assets/x-lg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.btn-playerO 
+{
+    background-image: url("../assets/circle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.btn-playerX-grey
+{
+    background-image: url("../assets/x-lg-grey.svg");
+}
+
+.btn-playerO-grey
+{
+    background-image: url("../assets/circle-gray.svg");
+}
+
+.btn-black 
+{
+    background-image: url("../assets/square.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.btn-grey
+{
+    background-image: url("../assets/square-grey.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.btn-selected 
+{
+    background-color: var(--card);
+}
+
+.border
+{
+    border-style: solid;
+    border-color: var(--border);
+    border-width: medium;
+}
+
+.center
+{
+    margin: auto;
+}
